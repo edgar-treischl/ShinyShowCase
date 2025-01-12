@@ -1,0 +1,70 @@
+/* Hero section styles */
+.hero-container {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Cards section styles */
+.cards-section {
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+/* Card styles */
+.card-clickable {
+  cursor: pointer;
+  height: 400px;
+}
+
+.card-image-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  max-height: 180px;
+  width: auto;
+  padding: 1rem;
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+/* ECharts container */
+.echarts-container {
+  height: calc(100vh - 60px);
+}
+
+/* Other utility classes */
+.text-center {
+  text-align: center;
+}
