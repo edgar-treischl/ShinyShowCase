@@ -1,9 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ShinyShowCase
+# ShinyShowCase GitHub
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 This package provides a Shiny app to showcase packages and functions in
