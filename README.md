@@ -4,11 +4,12 @@
 # ShinyShowCase
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-This package provides a Shiny app to showcase packages and functions in
-a Shiny app. The app is designed to be used in a Shiny app, but can also
-be used in a standalone R session.
+This package provides a Shiny app to showcase packages and functions for
+Shiny app. It includes examples for `ggplot2`, `gganimate`, `plotly`,
+`leaflet`, and `echarts4r`.
 
 ## Installation
 

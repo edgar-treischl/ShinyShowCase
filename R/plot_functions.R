@@ -27,7 +27,7 @@ create_scatter <- function() {
     theme_minimal(base_size = 18)
 }
 
-create_scatter()
+#create_scatter()
 
 create_boxplot <- function() {
   ggplot(diamonds, aes(cut, price)) +

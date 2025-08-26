@@ -5,11 +5,11 @@ library(echarts4r)
 
 # Source other module files (except landing)
 
-source("mod_ggplot.R")
-source("mod_ggext.R")
-source("mod_widgets.R")
-source("mod_leaflet.R")
-source("mod_echarts.R")
+# source("mod_ggplot.R")
+# source("mod_ggext.R")
+# source("mod_widgets.R")
+# source("mod_leaflet.R")
+# source("mod_echarts.R")
 
 # Create the main app UI
 ui <- page_navbar(
@@ -92,7 +92,7 @@ ui <- page_navbar(
             div(
               class = "card-image-container",
               img(
-                src = "www/ridgeline.png",
+                src = "/www/ridgeline.png",
                 class = "card-image"
               )
             ),

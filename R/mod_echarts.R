@@ -61,8 +61,8 @@ echartsUI <- function(id) {
 # Module server function
 echartsServer <- function(id) {
   moduleServer(id, function(input, output, session) {
-    source("echarts_functions.R", local = TRUE)
-    source("echarts_code.R", local = TRUE)
+    #source("echarts_functions.R", local = TRUE)
+    #source("echarts_code.R", local = TRUE)
 
     output$chart <- renderEcharts4r({
       switch(input$chart_type,

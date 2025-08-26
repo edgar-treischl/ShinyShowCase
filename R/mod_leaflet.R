@@ -62,8 +62,8 @@ leafletUI <- function(id) {
 # Module server function
 leafletServer <- function(id) {
   moduleServer(id, function(input, output, session) {
-    source("map_functions.R", local = TRUE)
-    source("map_code.R", local = TRUE)
+    #source("map_functions.R", local = TRUE)
+    #source("map_code.R", local = TRUE)
 
     current_map <- reactive({
       switch(input$map_type,

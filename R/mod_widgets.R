@@ -68,8 +68,8 @@ widgetsUI <- function(id) {
 # Module server function
 widgetsServer <- function(id) {
   moduleServer(id, function(input, output, session) {
-    source("widget_functions.R", local = TRUE)
-    source("widget_code.R", local = TRUE)
+    #source("widget_functions.R", local = TRUE)
+    #source("widget_code.R", local = TRUE)
 
     output$widget_output <- renderUI({
       ns <- session$ns

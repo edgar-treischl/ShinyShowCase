@@ -68,8 +68,8 @@ ggplotUI <- function(id) {
 # Module server function
 ggplotServer <- function(id) {
   moduleServer(id, function(input, output, session) {
-    source("plot_functions.R", local = TRUE)
-    source("plot_code.R", local = TRUE)
+    #source("plot_functions.R", local = TRUE)
+    #source("plot_code.R", local = TRUE)
 
     current_plot <- reactive({
       switch(input$plot_type,
